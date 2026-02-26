@@ -1,8 +1,58 @@
-*.js
-!jest.config.js
-*.d.ts
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+dashboard/node_modules/
+
+# Build and synth outputs
+cdk.out/
+cdk.out.deploy/
+.cdk.staging/
+dashboard/dist/
+coverage/
+.nyc_output/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+dashboard/.env
+dashboard/.env.*
+
+# Package archives
+*.tgz
+
+# Generated artifacts in source trees
+lambda/*.js
+lambda/*.d.ts
+dashboard/src/*.js
+dashboard/src/*.d.ts
+
+# Tool caches
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
