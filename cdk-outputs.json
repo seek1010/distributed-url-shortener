@@ -1,0 +1,7 @@
+{
+  "DistributedUrlShortenerStack": {
+    "CloudFrontURL": "https://d1t3js0d226bzx.cloudfront.net",
+    "ShortenEndpoint": "POST https://354ma4qiv4.execute-api.us-east-1.amazonaws.com/shorten",
+    "RedirectTest": "https://d1t3js0d226bzx.cloudfront.net/vD5ANH"
+  }
+}
